@@ -1,0 +1,92 @@
+CRITICAL - 2022-05-29 01:37:17 --> Undefined index: pembayaran_vendor.id
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 24, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(132): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+ERROR - 2022-05-29 01:39:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+CRITICAL - 2022-05-29 01:39:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pembaya...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+ERROR - 2022-05-29 01:41:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+CRITICAL - 2022-05-29 01:41:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pembaya...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+ERROR - 2022-05-29 01:45:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+CRITICAL - 2022-05-29 01:45:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pembaya...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-29 01:45:59 --> Undefined index: id_pembayaran
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 24, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(133): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+ERROR - 2022-05-29 01:46:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+CRITICAL - 2022-05-29 01:46:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `pembayaran_vendor`
+JOIN `vendor` ON `vendor`.`kode_vendor` = `pembaya...' at line 1
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pembaya...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pembaya...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pembaya...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `pembaya...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(122): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}

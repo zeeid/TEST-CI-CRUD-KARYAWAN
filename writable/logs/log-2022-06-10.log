@@ -1,0 +1,60 @@
+CRITICAL - 2022-06-10 16:04:00 --> Invalid file: dashboard/karyawan.php
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/karya...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/karya...', Array, true)
+#2 E:\codeigniter 4\testjumat\app\Controllers\Api\Menu.php(34): view('dashboard/karya...', Array)
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#8 {main}
+CRITICAL - 2022-06-10 16:04:04 --> Invalid file: dashboard/karyawan.php
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/karya...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/karya...', Array, true)
+#2 E:\codeigniter 4\testjumat\app\Controllers\Api\Menu.php(34): view('dashboard/karya...', Array)
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#8 {main}
+CRITICAL - 2022-06-10 16:20:06 --> Undefined property: App\Controllers\Api\Karyawan::$VendorModel
+#0 E:\codeigniter 4\testjumat\app\Controllers\Api\Karyawan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\codeigniter ...', 40, Array)
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Karyawan->simpan()
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Karyawan))
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-06-10 16:20:28 --> Undefined property: App\Controllers\Api\Karyawan::$VendorModel
+#0 E:\codeigniter 4\testjumat\app\Controllers\Api\Karyawan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\codeigniter ...', 40, Array)
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Karyawan->simpan()
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Karyawan))
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-06-10 16:26:36 --> Undefined variable: listvendor
+#0 E:\codeigniter 4\testjumat\app\Views\dashboard\tabel\tabel_karyawan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 19, Array)
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\testjumat\app\Controllers\Api\Karyawan.php(71): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Karyawan->listkaryawan()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Karyawan))
+#7 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-06-10 04:38:28 --> Class 'App\Controllers\Api\BaseController' not found
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}

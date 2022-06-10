@@ -1,0 +1,447 @@
+ERROR - 2022-05-26 16:36:27 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+CRITICAL - 2022-05-26 16:36:27 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(95): CodeIgniter\BaseModel->findAll()
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#8 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#12 {main}
+ERROR - 2022-05-26 16:36:32 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+CRITICAL - 2022-05-26 16:36:32 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(95): CodeIgniter\BaseModel->findAll()
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#8 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#12 {main}
+ERROR - 2022-05-26 16:38:01 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+CRITICAL - 2022-05-26 16:38:01 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(95): CodeIgniter\BaseModel->findAll()
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#8 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#12 {main}
+ERROR - 2022-05-26 16:38:33 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+CRITICAL - 2022-05-26 16:38:33 --> Table 'vendor_management.pembayaran_vendor' doesn't exist
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(95): CodeIgniter\BaseModel->findAll()
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#8 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#12 {main}
+CRITICAL - 2022-05-26 17:01:30 --> Undefined variable: listvendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 18, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 17:01:38 --> Undefined variable: listvendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 18, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 17:02:07 --> Undefined variable: listvendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 18, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 17:02:13 --> Undefined variable: listvendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 18, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 17:09:40 --> Undefined variable: listvendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 2, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 17:10:13 --> Undefined index: nama_vendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 26, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 17:10:21 --> Undefined index: nama_vendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 26, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 17:10:35 --> syntax error, unexpected '?>'
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#2 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(101): view('dashboard/tabel...', Array)
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#8 {main}
+ERROR - 2022-05-26 17:18:15 --> Column 'kode_pasangan' in where clause is ambiguous
+CRITICAL - 2022-05-26 17:18:15 --> Column 'kode_pasangan' in where clause is ambiguous
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(99): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 05:20:08 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+ERROR - 2022-05-26 17:22:54 --> Column 'kode_pasangan' in where clause is ambiguous
+CRITICAL - 2022-05-26 17:22:54 --> Column 'kode_pasangan' in where clause is ambiguous
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 07:53:45 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/menu', 'before')
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
+CRITICAL - 2022-05-26 07:53:53 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/menu', 'before')
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
+CRITICAL - 2022-05-26 20:49:23 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:49:42 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:51:44 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:53:33 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:53:57 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:54:21 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:54:57 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:56:26 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 20:58:39 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:04:34 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:05:21 --> Undefined index: jml_bayar 
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 33, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->testmodel()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:05:33 --> Undefined index: jml_bayar 
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 33, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->testmodel()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:06:11 --> Undefined index: jml_bayar 
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 33, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->testmodel()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:06:26 --> Undefined index: jml_bayar 
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 33, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->testmodel()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:07:13 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:07:46 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:10:22 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:11:21 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:11:36 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:11:42 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:11:54 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:12:00 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:12:21 --> Call to a member function get() on null
+#0 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(49): App\Models\PembayaranModel->getTotalBayar('1653443629')
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-05-26 21:36:45 --> Undefined variable: nama_vendor
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\laporan.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 4, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/lapor...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Menu.php(77): view('dashboard/lapor...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Menu->index()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Menu))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 21:50:06 --> Undefined index: nama_user
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 30, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(132): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 21:50:22 --> Undefined index: nama_user
+#0 E:\codeigniter 4\menejement-vendor\app\Views\dashboard\tabel\tabel_pembayaran.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\codeigniter ...', 30, Array)
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/tabel...', Array, true)
+#4 E:\codeigniter 4\menejement-vendor\app\Controllers\Api\Pembayaran.php(132): view('dashboard/tabel...', Array)
+#5 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Pembayaran->listbayar()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Pembayaran))
+#7 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#10 {main}
+CRITICAL - 2022-05-26 09:53:46 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/menu', 'before')
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
+CRITICAL - 2022-05-26 09:53:55 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/menu', 'before')
+#4 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\menejement-vendor\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\menejement-vendor\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
