@@ -16,10 +16,38 @@
                 <h5>Form <?= $judul ?></h5>
             </div>
             <div class="card-body">
+                <div class="text-center">
+                    <img src="upload/<?php if(isset($listkaryawan['fotonya'])){echo $listkaryawan['fotonya'];}else{echo "default.png";} ?>" class="rounded" style="width: 200px;height:200px;">
+                </div>
                 <form id="form_karyawan" >
                     <input type="hidden" id="<?= csrf_token() ?>" name="<?= csrf_token() ?>" value="<?= csrf_hash() ?>">
                     <div class="row">
                         
+                        <div class="col-12">
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input required type="email" id="email" class="form-control" name="email" value="<?php if(isset($listkaryawan['email'])){echo $listkaryawan['email'];} ?>">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input required type="password" id="password" class="form-control" name="password" value="<?php if(isset($listkaryawan['password'])){echo $listkaryawan['password'];} ?>">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Foto</label>
+                                <div class="col-sm-10">
+                                    <input type="hidden" name="foto_old" value="<?php if(isset($listkaryawan['fotonya'])){echo $listkaryawan['fotonya'];} ?>">
+                                    <input type="file" id="fotonya" class="form-control" name="fotonya" value="<?php if(isset($listkaryawan['fotonya'])){echo $listkaryawan['fotonya'];} ?>">
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-12">
                             <div class="form-group row">
                                 <label for="inputPassword" class="col-sm-2 col-form-label">Nama Karyawan</label>
@@ -82,11 +110,17 @@
 
     $("#form_karyawan").submit(function (e) { 
         e.preventDefault();
-        var data = $("#form_karyawan").serialize();
+        // var data = $("#form_karyawan").serialize();
+
+        var formData = new FormData($('#form_karyawan')[0]);
+
         $.ajax({
             type: "POST",
             url: "api/karyawan/simpan",
-            data: data,
+            data:formData,
+            cache:false,
+            contentType: false,
+            processData: false,
             beforeSend: function() {
                 toastr["info"]("Mohon Tunggu..", "Loading")
                 toastr.options = {
@@ -108,7 +142,7 @@
                 }
             },
             success: function (hasil) {
-                // $("#debug").html(hasil)
+                $("#debug").html(hasil)
                 const obj   = JSON.parse(hasil);
                 var status  = obj.status
                 var pesan   = obj.pesan
@@ -125,6 +159,14 @@
                         if (willDelete) {
                             menu('Karyawan')
                         } 
+                    });
+                }
+                else{
+                    swal({
+                        title: "GAGAL",
+                        text: pesan,
+                        icon: "error",
+                        button: "OKE",
                     });
                 }                
             },

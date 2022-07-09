@@ -2,15 +2,18 @@
 
 namespace App\Controllers;
 
+use App\Models\AuthModel;
+use App\Models\KaryawanModel;
 use CodeIgniter\Config\Services;
 use App\Controllers\BaseController;
-use App\Models\AuthModel;
 
 class Auth extends BaseController
 {
     protected $AuthModel;
+    protected $KaryawanModel;
     public function __construct(){
         $this->AuthModel = new AuthModel();
+        $this->KaryawanModel = new KaryawanModel();
     }
     
     public function index()
@@ -35,7 +38,7 @@ class Auth extends BaseController
             $errors = $validation->getErrors();
 
             $response = array(
-                'status'    => 500, 
+                'status'    => 501, 
                 'Pesan'     => 'Silahkan Periksan Email / Password anda !', 
                 'data'      => $errors
             );
@@ -47,11 +50,37 @@ class Auth extends BaseController
             ->first();
 
             if ($cek == null) {
-                $response = array(
-                    'status'    => 500, 
-                    'Pesan'     => 'Silahkan Periksan Email / Password anda !', 
-                    'data'      => 'User tidak ditemukan'
-                );
+
+                $get_karyawan = $this->KaryawanModel->loginKaryawan($email,$sandi);
+                // dd($get_karyawan);
+
+                if ($get_karyawan != null) {
+
+                    $newdata = [
+                        'username'      => $get_karyawan['email'],
+                        'email'         => $get_karyawan['email'],
+                        'wa'            => '-',
+                        'kode_pasangan' => '-',
+                        'nama_user'     => $get_karyawan['nama'],
+                        'logged_in'     => true,
+                        'status'        => 'karyawan',
+                    ];
+                    
+                    $this->session->set($newdata);
+    
+                    $response = array(
+                        'status'    => 200, 
+                        'Pesan'     => 'Berhasil Login', 
+                        'data'      => '-'
+                    );
+                }else{
+                    $response = array(
+                        'status'    => 500, 
+                        'Pesan'     => 'Silahkan Periksan Email / Password anda !', 
+                        'data'      => 'User tidak ditemukan'
+                    );
+                }
+
             }else{
 
                 // ====== SET SESSION =========
@@ -62,6 +91,7 @@ class Auth extends BaseController
                     'kode_pasangan' => $cek['kode_pasangan'],
                     'nama_user'     => $cek['nama_user'],
                     'logged_in'     => true,
+                    'status'        => 'super',
                 ];
                 
                 $this->session->set($newdata);

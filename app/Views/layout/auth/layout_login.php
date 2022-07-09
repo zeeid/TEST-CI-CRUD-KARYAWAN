@@ -121,6 +121,7 @@
                 }          
             },
             error: function(xhr) { // if error occured
+                toastr["error"]('LOGIN ERROR', "Gagal Login")
                 alert("statusText : \n"+xhr.statusText+"\n\n responseText: \n"+xhr.responseText);
                 // $(placeholder).append(xhr.statusText + xhr.responseText);
                 // $(placeholder).removeClass('loading');

@@ -15,7 +15,7 @@ class KaryawanModel extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['nama', 'tanggal_lahir','gaji','status_karyawan'];
+    protected $allowedFields = ['email','password','fotonya','nama', 'tanggal_lahir','gaji','status_karyawan'];
 
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';
@@ -26,7 +26,7 @@ class KaryawanModel extends Model
     // protected $validationMessages = [];
     // protected $skipValidation     = false;
 
-    public function getvendor($id = false){
+    public function getkaryawan($id = false){
 
         if ($id == false) {
             return $this->findAll();
@@ -35,6 +35,17 @@ class KaryawanModel extends Model
         return $this->where(
             [
                 'id'=>$id
+            ]
+        )->first();
+    }
+    public function loginKaryawan($email = false,$password = false){
+
+        // dd($email." | ".$password);
+
+        return $this->where(
+            [
+                'email'=>$email,
+                'password'=>$password,
             ]
         )->first();
     }

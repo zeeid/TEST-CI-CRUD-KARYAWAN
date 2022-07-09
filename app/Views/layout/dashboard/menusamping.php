@@ -28,13 +28,24 @@
                 </div>
             </div>
             
-            <ul class="nav pcoded-inner-navbar " style="display: block;">
+            <ul class="nav pcoded-inner-navbar " style="display:<?= ($session->get('status') == 'super') ? 'block' : 'none' ?>">
                 <li class="nav-item pcoded-menu-caption">
                     <label>Kelola Menu</label>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link " onclick="menu('Karyawan')"><span class="pcoded-micon"><i class="fa fa-users"></i></span><span class="pcoded-mtext">Karyawan</span></a>
+                </li>
+                
+            </ul>
+
+            <ul class="nav pcoded-inner-navbar " style="display:<?= ($session->get('status') == 'super') ? 'none' : 'block' ?>">
+                <li class="nav-item pcoded-menu-caption">
+                    <label>Menu <?= $session->get('status')?></label>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " onclick="menu('Profil')"><span class="pcoded-micon"><i class="fa fa-user"></i></span><span class="pcoded-mtext">Profil</span></a>
                 </li>
                 
             </ul>

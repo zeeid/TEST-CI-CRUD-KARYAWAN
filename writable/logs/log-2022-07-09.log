@@ -1,0 +1,57 @@
+CRITICAL - 2022-07-09 05:27:27 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/menu', 'before')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
+CRITICAL - 2022-07-09 17:30:17 --> Undefined variable: judul
+#0 E:\codeigniter 4\testjumat\app\Views\layout\dashboard\template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\codeigniter ...', 14, Array)
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\codeigniter ...')
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/dashboar...', Array, true)
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/index', Array, true)
+#5 E:\codeigniter 4\testjumat\app\Controllers\Dashboard\Home.php(16): view('dashboard/index', Array)
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Dashboard\Home->index()
+#7 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\Home))
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#11 {main}
+CRITICAL - 2022-07-09 17:43:38 --> Trying to access array offset on value of type null
+#0 E:\codeigniter 4\testjumat\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\codeigniter ...', 59, Array)
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-07-09 17:43:50 --> Trying to access array offset on value of type null
+#0 E:\codeigniter 4\testjumat\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\codeigniter ...', 59, Array)
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-07-09 17:44:51 --> Trying to access array offset on value of type null
+#0 E:\codeigniter 4\testjumat\app\Controllers\Auth.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\codeigniter ...', 62, Array)
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#6 {main}
+CRITICAL - 2022-07-09 05:48:36 --> syntax error, unexpected '}'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Kary...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Kary...')
+#3 E:\codeigniter 4\testjumat\app\Controllers\Auth.php(16): spl_autoload_call('App\\Models\\Kary...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Auth->__construct()
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
