@@ -57,6 +57,7 @@ class Auth extends BaseController
                 if ($get_karyawan != null) {
 
                     $newdata = [
+                        'id'            => $get_karyawan['id'],
                         'username'      => $get_karyawan['email'],
                         'email'         => $get_karyawan['email'],
                         'wa'            => '-',
@@ -85,6 +86,7 @@ class Auth extends BaseController
 
                 // ====== SET SESSION =========
                 $newdata = [
+                    'id'            => $cek['id'],
                     'username'      => $cek['username'],
                     'email'         => $cek['email'],
                     'wa'            => $cek['wa'],

@@ -38,14 +38,22 @@ class KaryawanModel extends Model
             ]
         )->first();
     }
+    public function getkaryawanByID_Email($id,$email){
+        return $this->where(
+            [
+                'id'    =>$id,
+                'email' =>$email,
+            ]
+        )->first();
+    }
     public function loginKaryawan($email = false,$password = false){
 
         // dd($email." | ".$password);
 
         return $this->where(
             [
-                'email'=>$email,
-                'password'=>$password,
+                'email'     =>$email,
+                'password'  =>$password,
             ]
         )->first();
     }

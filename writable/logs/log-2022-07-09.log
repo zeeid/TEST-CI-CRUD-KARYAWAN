@@ -55,3 +55,23 @@ CRITICAL - 2022-07-09 05:48:36 --> syntax error, unexpected '}'
 #7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
 #9 {main}
+CRITICAL - 2022-07-09 07:37:51 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/menu', 'before')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
+CRITICAL - 2022-07-09 20:24:52 -->  is not a valid rule.
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('gaji', 'gaji', NULL, Array, Array)
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 E:\codeigniter 4\testjumat\app\Controllers\Api\Karyawan.php(40): CodeIgniter\Controller->validate(Array)
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Api\Karyawan->simpan()
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Karyawan))
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}

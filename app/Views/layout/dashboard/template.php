@@ -102,7 +102,7 @@
 										</a>
 									</div>
 									<ul class="pro-body">
-										<li><a href="#" onclick="menu('Profil')" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
+										<li style="display:<?= ($session->get('status') == 'super') ? 'none' : 'block' ?>"><a href="#" onclick="menu('Profil')" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
 										<!-- <li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> My Messages</a></li> -->
 										<li><a href="/logout" class="dropdown-item"><i class="feather icon-power"></i> Keluar</a></li>
 									</ul>

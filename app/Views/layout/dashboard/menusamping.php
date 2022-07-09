@@ -22,33 +22,43 @@
                 </div>
                 <div class="collapse" id="nav-user-link">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#" onclick="menu('Profil')" data-toggle="tooltip" title="View Profile"><i class="feather icon-user"></i></a></li>
+                        <li class="list-inline-item" style="display:<?= ($session->get('status') == 'super') ? 'none' : 'block' ?>"><a href="#" onclick="menu('Profil')" data-toggle="tooltip" title="View Profile"><i class="feather icon-user"></i></a></li>
                         <li class="list-inline-item"><a href="/logout" data-toggle="tooltip" title="Logout" class="text-danger"><i class="feather icon-power"></i></a></li>
                     </ul>
                 </div>
             </div>
             
-            <ul class="nav pcoded-inner-navbar " style="display:<?= ($session->get('status') == 'super') ? 'block' : 'none' ?>">
-                <li class="nav-item pcoded-menu-caption">
-                    <label>Kelola Menu</label>
-                </li>
+            <?php 
+                if ($session->get('status') == 'super') {
+                    ?>
+                        <ul class="nav pcoded-inner-navbar " style="display:<?= ($session->get('status') == 'super') ? 'block' : 'none' ?>">
+                            <li class="nav-item pcoded-menu-caption">
+                                <label>Kelola Menu</label>
+                            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link " onclick="menu('Karyawan')"><span class="pcoded-micon"><i class="fa fa-users"></i></span><span class="pcoded-mtext">Karyawan</span></a>
-                </li>
-                
-            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link " onclick="menu('Karyawan')"><span class="pcoded-micon"><i class="fa fa-users"></i></span><span class="pcoded-mtext">Karyawan</span></a>
+                            </li>
+                            
+                        </ul>
+                    <?php
+                }else{
+                    ?>
+                        <ul class="nav pcoded-inner-navbar " style="display:<?= ($session->get('status') == 'super') ? 'none' : 'block' ?>">
+                            <li class="nav-item pcoded-menu-caption">
+                                <label>Menu <?= $session->get('status')?></label>
+                            </li>
 
-            <ul class="nav pcoded-inner-navbar " style="display:<?= ($session->get('status') == 'super') ? 'none' : 'block' ?>">
-                <li class="nav-item pcoded-menu-caption">
-                    <label>Menu <?= $session->get('status')?></label>
-                </li>
+                            <li class="nav-item">
+                                <a class="nav-link " onclick="menu('Profil')"><span class="pcoded-micon"><i class="fa fa-user"></i></span><span class="pcoded-mtext">Profil</span></a>
+                            </li>
+                            
+                        </ul>
+                    <?php
+                }
+            ?>
 
-                <li class="nav-item">
-                    <a class="nav-link " onclick="menu('Profil')"><span class="pcoded-micon"><i class="fa fa-user"></i></span><span class="pcoded-mtext">Profil</span></a>
-                </li>
-                
-            </ul>
+
             
             
         </div>

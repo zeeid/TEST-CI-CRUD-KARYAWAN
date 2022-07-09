@@ -24,6 +24,9 @@ class Karyawan extends BaseController
         $foto_old   = $this->request->getVar('foto_old');
         
         $validasi       = \Config\Services::validation();
+
+        $status = $this->session->get('status');
+
         // ========= VALIDASI ==========
             if (!$this->validate([
                 'nama'              => 'required',
@@ -44,7 +47,7 @@ class Karyawan extends BaseController
             ])) {
                 // return redirect()->to('/crud/tambah')->withInput();
                 if(isset($validasi)){
-                    // $error_list = $validasi->listErrors();
+                    $error_list = $validasi->listErrors();
                     // $error_nama = ($validasi->hasError('nama')) ? 'is-invalid' : '';
                     // $error_nama_detail = ($validasi->hasError('nama')) ? $validasi->getError('nama') : '';
 
@@ -59,10 +62,11 @@ class Karyawan extends BaseController
                     $error_password         = ($validasi->hasError('password')) ? $validasi->getError('password') : '';
 
                     $data = array(
-                        'status'    => 201,
+                        'status'    => 202,
                         'e_kunciku' => $error_kunciku, 
                         'e_mode'    => $error_mode, 
                         'e_gambar'  => $error_gambar, 
+                        'error_list'  => $error_list, 
                         'pesan'     => 'ERROR UPLOAD GAMBARNYA', 
                     );
                     return json_encode($data);
@@ -124,17 +128,26 @@ class Karyawan extends BaseController
                 }
         // ============ SIMPAN FILE ===============
 
-        // die();
+        if ($status !='super') {
+            $datanya = [
+                'email'             => $this->request->getVar('email'),
+                'password'          => $this->request->getVar('password'),
+                'fotonya'           => $namafile_random,
+                'nama'              => $this->request->getVar('nama'),
+                'tanggal_lahir'     => $this->request->getVar('tanggal_lahir'),
+            ];
+        }else{
+            $datanya = [
+                'email'             => $this->request->getVar('email'),
+                'password'          => $this->request->getVar('password'),
+                'fotonya'           => $namafile_random,
+                'nama'              => $this->request->getVar('nama'),
+                'tanggal_lahir'     => $this->request->getVar('tanggal_lahir'),
+                'gaji'              => $this->request->getVar('gaji'),
+                'status_karyawan'   => $this->request->getVar('status_karyawan'),
+            ];
+        }
         
-        $datanya = [
-            'email'             => $this->request->getVar('email'),
-            'password'          => $this->request->getVar('password'),
-            'fotonya'           => $namafile_random,
-            'nama'              => $this->request->getVar('nama'),
-            'tanggal_lahir'     => $this->request->getVar('tanggal_lahir'),
-            'gaji'              => $this->request->getVar('gaji'),
-            'status_karyawan'   => $this->request->getVar('status_karyawan'),
-        ];
 
         if ($mode=='update') {
 

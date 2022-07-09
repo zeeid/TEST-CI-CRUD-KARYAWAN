@@ -65,29 +65,25 @@
                             </div>
                         </div>
                         
-                        <div class="col-12">
+                        <div class="col-12" style="display: none;">
                             <div class="form-group row">
                                 <label for="inputPassword" class="col-sm-2 col-form-label">Gaji</label>
                                 <div class="col-sm-10">
-                                    <input required type="number" placeholder="Contoh: 15000 [Hanya Angka]" id="gaji" class="form-control readonlyc" name="gaji" value="<?php if(isset($listkaryawan['gaji'])){echo $listkaryawan['gaji'];} ?>">
+                                    <input readonly type="number" placeholder="Contoh: 15000 [Hanya Angka]" id="gaji" class="form-control readonlyc" name="gaji" value="<?php if(isset($listkaryawan['gaji'])){echo $listkaryawan['gaji'];} ?>">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12" style="display: none;">
                             <div class="form-group row">
                                 <label for="inputPassword" class="col-sm-2 col-form-label">Status Karyawan </label>
                                 <div class="col-sm-10">
-                                    <select required name="status_karyawan" id="status_karyawan" class="form-control">
-                                        <option value="" selected disabled>--Pilih salah satu--</option>
-                                        <option <?php if(isset($listkaryawan['status_karyawan'])){if($listkaryawan['status_karyawan']=='1'){echo "selected";}} ?> value="1" >Aktif</option>
-                                        <option <?php if(isset($listkaryawan['status_karyawan'])){if($listkaryawan['status_karyawan']=='0'){echo "selected";}} ?> value="0" >Tdak Aktif</option>
-                                    </select>
+                                    <input readonly type="hidden" id="status_karyawanx" class="form-control readonlyc" name="status_karyawan" value="<?php if(isset($listkaryawan['status_karyawan'])){echo $listkaryawan['status_karyawan'];} ?>">
                                 </div>
                             </div>
                         </div>                        
                     </div>
                     <button type="submit" class="btn btn-primary btn-sm rounded"><?php if(isset($listkaryawan['id'])){echo 'Update';}else{echo 'Simpan';} ?></button>
-                    <button type="button" class="btn btn-info btn-sm rounded" onclick="menu('Karyawan')"> Kembali</button>
+                    
                     <input type="hidden" readonly name="mode" value="<?php if(isset($listkaryawan['id'])){echo 'update';}else{echo 'simpan';} ?>">
                     <input type="hidden" readonly name="id" value="<?php if(isset($listkaryawan['id'])){echo $listkaryawan['id'];}else{echo '';} ?>">
                     <input type="hidden" id="is_new" name="is_new" value="" readonly>
@@ -157,7 +153,7 @@
                     })
                     .then((willDelete) => {
                         if (willDelete) {
-                            menu('Karyawan')
+                            menu('Profil')
                         } 
                     });
                 }

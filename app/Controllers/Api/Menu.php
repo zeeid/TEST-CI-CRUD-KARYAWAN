@@ -38,6 +38,23 @@ class Menu extends BaseController
             ];
             return view('dashboard/karyawan_form', $data);
         }
+        elseif ($menunya == 'Profil') {
+            // $id = $this->request->getVar('id');
+            $status = $this->session->get('status');
+            $id     = $this->session->get('id');
+            $email  = $this->session->get('email');
+            
+            // echo "PROFIL";
+
+
+            $dataKaryawan = $this->KaryawanModel->getkaryawanByID_Email($id,$email);
+            
+            $data = [
+                'judul'      => $menunya,
+                'listkaryawan' => $dataKaryawan,
+            ];
+            return view('dashboard/profil', $data);
+        }
 
 
         else{

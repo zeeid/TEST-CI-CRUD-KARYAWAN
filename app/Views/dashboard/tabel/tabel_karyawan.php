@@ -7,6 +7,7 @@
         <tr>
             <th>NO</th>
             <th>AKSI</th>
+            <th>FOTO</th>
             <th>Email</th>
             <th>Nama</th>
             <th>Tanggal Lahir</th>
@@ -30,10 +31,13 @@
                     <button type="button" class="btn btn-danger btn-sm" onclick="hapus_karyawan('<?=$key['id']?>')">Hapus</button>
                     <button type="button" class="btn btn-warning btn-sm" onclick="fmenu('Tambah Karyawan','<?=$key['id']?>')">Edit</button>
                 </td>
+                <td>
+                    <img src="upload/<?= $key['fotonya'] ?>" alt="foto" style="width: 100px; widtg: 200px;">
+                </td>
                 <td><?= $key['email'] ?></td>
                 <td><?= $key['nama'] ?></td>
                 <td><?= $key['tanggal_lahir'] ?></td>
-                <td style="text-align: right;"><?= number_format($key['gaji']) ?></td>
+                <td style="text-align: right;">Rp. <?= number_format($key['gaji']) ?></td>
                 <td><?= $status_karyawan ?></td>
             </tr>
         <?php
