@@ -55,6 +55,13 @@ class Menu extends BaseController
             ];
             return view('dashboard/profil', $data);
         }
+        elseif ($menunya == 'Soal 1 Koltiva') {
+            
+            $data = [
+                'judul'      => $menunya,
+            ];
+            return view('dashboard/soalsatu', $data);
+        }
 
 
         else{

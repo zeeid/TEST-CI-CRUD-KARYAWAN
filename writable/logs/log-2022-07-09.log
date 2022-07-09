@@ -75,3 +75,162 @@ CRITICAL - 2022-07-09 20:24:52 -->  is not a valid rule.
 #7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
 #9 {main}
+CRITICAL - 2022-07-09 09:38:55 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/menu', 'before')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
+CRITICAL - 2022-07-09 10:04:00 --> syntax error, unexpected ')', expecting ';'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:04:02 --> syntax error, unexpected ')', expecting ';'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:23:54 --> syntax error, unexpected ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:23:56 --> syntax error, unexpected ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:24:11 --> syntax error, unexpected ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:24:47 --> syntax error, unexpected ';'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:24:48 --> syntax error, unexpected ';'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:46:00 --> syntax error, unexpected ';', expecting ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:46:01 --> syntax error, unexpected ';', expecting ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:54:47 --> syntax error, unexpected ';', expecting ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:54:48 --> syntax error, unexpected ';', expecting ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 10:54:49 --> syntax error, unexpected ';', expecting ')'
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\codeigniter ...')
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#9 {main}
+CRITICAL - 2022-07-09 11:57:58 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/koltiva/sat...', 'before')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}
+CRITICAL - 2022-07-09 11:58:18 --> The action you requested is not allowed.
+#0 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/koltiva/sat...', 'before')
+#4 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\codeigniter 4\testjumat\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\codeigniter 4\testjumat\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\codeigniter ...')
+#7 {main}

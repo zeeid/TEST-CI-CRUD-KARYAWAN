@@ -39,6 +39,9 @@
                             <li class="nav-item">
                                 <a class="nav-link " onclick="menu('Karyawan')"><span class="pcoded-micon"><i class="fa fa-users"></i></span><span class="pcoded-mtext">Karyawan</span></a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link " onclick="menu('Soal 1 Koltiva')"><span class="pcoded-micon"><i class="fa fa-tasks"></i></span><span class="pcoded-mtext">Soal 1 Koltiva</span></a>
+                            </li>
                             
                         </ul>
                     <?php

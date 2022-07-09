@@ -40,6 +40,7 @@ $routes->get('/login', 'Auth::index');
 $routes->get('/logout', 'Auth::logout');
 $routes->get('/dashboard', 'Dashboard\Home::index');
 
+
 // === API LOGIN ====
 $routes->post('/api/auth/login', 'Auth::login');
 
@@ -48,6 +49,7 @@ $routes->post('/api/auth/login', 'Auth::login');
 $routes->post('/api/karyawan/simpan', 'Api\Karyawan::simpan');
 $routes->post('/api/karyawan/listkaryawan', 'Api\Karyawan::listkaryawan');
 $routes->post('/api/karyawan/hapuskaryawan', 'Api\Karyawan::hapuskaryawan');
+$routes->post('/api/koltiva/satu', 'Api\Koltiva::index');
 
 
 
